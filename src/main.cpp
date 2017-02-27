@@ -3,8 +3,8 @@
 #include <vector>
 #include <cmath>
 
-const int windowWidth = 1000.0;
-const int windowHeight = 1000.0;
+const int windowWidth = 500.0;
+const int windowHeight = 500.0;
 
 struct Point2D {
     float x;
@@ -24,7 +24,7 @@ struct Point2D {
     }
 };
 
-std::vector<Point2D> bezierPoints{ { 600, 800 }, { 650, 700 }, { 660, 400 }, { 600, 200 }, { 350, 400 }, { 300, 300 } };
+std::vector<Point2D> bezierPoints{ { 300, 400 }, { 325, 350 }, { 330, 200 }, { 300, 100 }, { 175, 200 }, { 150, 150 } };
 Point2D* selectedPoint = nullptr;
 
 void init (void)
